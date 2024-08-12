@@ -64,7 +64,7 @@ const glossary = [
 {target:`print`, content:`テキストファイルを印刷。<br>$ *** /D:LPT1 example.txt`},
 {target:`defrag`, content:`ディスクを最適化。<br>$ *** C: /U /V`},
 {target:`cacls`, content:`アクセス権を設定・表示。<br>$ *** example.txt → 表示<br>$ *** example.txt /G UserNameA:F → UserNameAにフルコントロールのアクセス権を設定`},
-{target:`color`, content:`コンソールの色を設定。<br>$ color 0F → 背景：0 黒、文字：F 輝く白`},
+{target:`color`, content:`コンソールの色を設定。<br>$ *** 0F → 背景：0 黒、文字：F 輝く白`},
 {target:`nslookup`, content:`DNSサーバを問い合わせる。<br>$ *** example.com`},
 {target:`pathping`, content:`経路の追跡と統計を表示。<br>$ *** example.com`},
 {target:`ping`, content:`ネットワークの疎通を確認。<br>$ *** example.com`},
